@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% macro input() %}
+    <input type="text" name="" value="" size="30">
+    {% endmacro %}
+
+    <h1>input 1</h1>
+    {{ input() }}
+    <h1>input 2</h1>
+    {{ input() }}
+
+    <hr/>
+
+    {% macro input2(name, type="text", value="", size="30") %}
+
+    <input type="{{ type }}" name="{{ name }}" value="{{ value }}" size="{{ size }}">
+
+    {% endmacro %}
+
+    <h1>input2  1</h1>
+    {{ input2("itcast")  }}
+    <h1>input2  2</h1>
+    {{ input2("password", type="password", size="40")  }}
+
+
+    <hr/>
+
+    {% import "macro_input3.html" as m_input %}
+
+    <h1> input3 </h1>
+    {{ m_input.input3("python", size="50") }}
+
+
+
+
+
+
+
+</body>
+</html>

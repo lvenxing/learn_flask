@@ -1,0 +1,2 @@
+10.211.55.5 - - [02/Nov/2017:18:56:30 +0800] "GET /cart/get_cart HTTP/1.0" 200 155 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36"
+10.211.55.5 - - [02/Nov/2017:18:57:23 +0800] "GET / HTTP/1.0" 200 19 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36"
